@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to philosophy !</title>
+    <link rel="stylesheet" href="css/css.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=GFS+Neohellenic:wght@700&family=Gentium+Book+Plus:wght@400;700&family=Gentium+Plus:ital,wght@0,400;1,700&family=Young+Serif&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="containter">
+        <nav>
+            <div class="navLeft">
+                <img src="images/logo.png" alt="logo met hoofd van Marcus Aurelius">
+                <h3>The philosophers hub</h3>
+            </div>
+            <div class="navRight">
+                <a href="#home">Home</a>
+                <a href="#newArticles">New articles</a>
+                <a href="#form">Become a thinker!</a>
+            </div>
+        </nav>
+
+        <header id="home">
+            <h1>
+                Welcome fellow thinker!
+            </h1>
+            <p class="welcomeMessage">
+                Welcome to the world of philosophy ! Join us on our journey of exploring
+                deep thinking and gathering knowledge. Together we'll explore the
+                profound questions about life, ethics and politics and seeking the deeper
+                meaning of human existing.
+            </p>
+            <a href="#" class="buttonHeader">
+                Start thinking!
+            </a>
+        </header>
+
+        <main id="newArticles">
+            <h1>
+                New published articles
+            </h1>
+            <section class="subheading">
+                <article class="article1">
+                    <img src="images/thethinker.jpeg" alt="Image of the thinker statue">
+                    <h2>
+                        10 profound questions about the mind
+                    </h2>
+                    <p>
+                        Exploring the intricacies of the human mind and consciousness, this article delves into 10
+                        profound philosophical
+                        questions, of the geatest philosphers, about the nature of the mind. From the enigma of free
+                        will to the mysteries of
+                        identity and perception, these
+                        inquiries challenge our understanding of what it means to be conscious beings....
+                    </p>
+                    <a href="#" class="buttonArticles"> Read more!</a>
+                </article>
+
+                <article class="article2">
+                    <img src="images/marcusaurelius.jpeg" alt="Image of Marcus Aurelius">
+                    <h2>
+                        Who was Marcus Aurelius?
+                    </h2>
+                    <p>
+                        Marcus Aurelius, a name synonymous with stoicism, wisdom, and Roman leadership. In this article,
+                        we delve into the life
+                        and legacy of this remarkable Roman Emperor. From his reign during a pivotal period in history
+                        to his enduring
+                        philosophy, we uncover the profound impact of Marcus Aurelius on both ancient and modern
+                        thought....
+                    </p>
+                    <a href="#" class="buttonArticles"> Read more!</a>
+                </article>
+
+                <article class="article3">
+                    <img src="images/socrates.webp" alt="Image of Socrates">
+                    <h2>
+                        Using the socrates thinking in your daily life
+
+                    </h2>
+                    <p>
+                        Harnessing the timeless wisdom of Socrates, this article delves into the applicability of his
+                        philosophical approach in
+                        today's world. As we navigate complex ethical dilemmas and critical thinking challenges,
+                        Socratic principles of inquiry
+                        and self-examination continue to serve as invaluable guides, fostering intellectual growth and
+                        ethical decision-making
+                        in our modern age....
+                    </p>
+                    <a href="#" class="buttonArticles"> Read more!</a>
+                </article>
+            </section>
+
+            <section class="formSection">
+                <h1 id="form"> Become a thinker !</h1>
+                <p>Leave us your profound questions. Or tell us what you want to know more about!
+                    If you would like to stay updated, sign up for our newsletter!
+                </p>
+                <div class="form">
+                    <form action="bedankt.html" method="get">
+                        <div class="names">
+                            <div class="first-name">
+                                <label for="first-name">First name</label>
+                                <input type="text" name="first-name" id="first-name" placeholder="First name" required>
+
+                            </div>
+                            <div class="last-name">
+                                <label for="last-name">Last name</label>
+                                <input type="text" name="last-name" id="last-name" placeholder="Last name" required>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="someone@example.com" required>
+                        </div>
+                        <div>
+                            <label for="ideology">What kind of philosophy interests you? </label>
+                            <select name="ideology" id="ideology">
+                                <option value="" disabled selected>Choose your ideology</option>
+                                <option value="nihilism">nihilism</option>
+                                <option value="stoïcism">Stoïcism</option>
+                                <option value="absurdism">Absurdism</option>
+                                <option value="socratism">Socratism</option>
+                                <option value="none">None of the above</option>
+                                <option value="all">All of the above</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="thoughts">Leave us your thoughts !</label>
+                            <textarea id="thoughts" name="thoughts" placeholder="I would like to say..."></textarea>
+                        </div>
+
+                        <div>
+                            <p class="news">Sign up for the newsletter !</p>
+                            <div class="signUp">
+
+                                <div class="yes">
+                                    <input type="radio" name="yesno" id="yes">
+                                    <label for="yes">Yes !</label>
+
+                                </div>
+                                <div class="no">
+                                    <input type="radio" name="yesno" id="no">
+                                    <label for="no">No !</label>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <button type="submit" class="submit">Submit</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <section class="footerLeft">
+                <div class="footerLogo">
+                    <img src="images/logo.png" alt="Logo Marcus Aurelius">
+                </div>
+                <p>
+                    Copyright 2023 Philosophy hub
+                </p>
+                <div class="socials">
+                    <a href="https://www.instagram.com/"><img src="images/instagramlogo.png" alt="Instagram logo"></a>
+                    <a href="https://www.facebook.com/?locale=nl_NL"><img src="images/facebooklogo.png"
+                            alt="Facebook logo"></a>
+                    <a href="https://twitter.com/?lang=nl"><img src="images/twitterlogo.png" alt="Twitterlogo"></a>
+                </div>
+            </section>
+            <section class="footerRight">
+                <a href="https://policies.google.com/privacy?hl=en-US">Privacy policy</a>
+                <a href="https://policies.google.com/terms?hl=en-US">Terms of service</a>
+                <a href="https://policies.google.com/technologies/cookies?hl=en-US">Cookie policy</a>
+                <a href="https://about.google/contact-google/?hl=nl">Contact </a>
+            </section>
+        </footer>
+    </div>
+</body>
+
+</html>
